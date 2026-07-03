@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% if not has_data %}
+<div class="empty-state">
+  <h2>No data yet</h2>
+  <p>Upload Report A, Report B and Master Report C to compute the reconciliation dashboard.</p>
+  <a href="{{ url_for('upload.upload') }}" class="btn-ckyc" style="text-decoration:none;display:inline-block;">Go to Upload</a>
+</div>
+{% else %}
+
+<div class="kpi-row">
+  {% for bucket in buckets %}
+  <div class="kpi-card">
+    <div class="kpi-value">{{ kpis[bucket].pct }}%</div>
+    <div class="kpi-label">% {{ bucket }}</div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="dashboard-layout">
+
+  <aside class="side-panel">
+    <h4>Overall %</h4>
+    <div class="stat-tile">
+      <div class="stat-value">{{ overall.uploaded_pct }}%</div>
+      <div class="stat-label">Uploaded %</div>
+    </div>
+    <div class="stat-tile">
+      <div class="stat-value">{{ overall.completed_pct }}%</div>
+      <div class="stat-label">Completed %</div>
+    </div>
+    <div class="stat-tile">
+      <div class="stat-value">{{ overall.deemed_completed_pct }}%</div>
+      <div class="stat-label">Deemed Completed %</div>
+    </div>
+
+    <div class="filter-group">
+      <label>Date Range</label>
+      <select id="filter-date">
+        <option>All</option>
+        <option>Last 7 Days</option>
+        <option>Last 30 Days</option>
+        <option>This Quarter</option>
+      </select>
+
+      <label>Product</label>
+      <select id="filter-product">
+        {% for p in products %}<option value="{{ p }}">{{ p }}</option>{% endfor %}
+      </select>
+
+      <label>Status</label>
+      <select id="filter-status">
+        {% for s in statuses %}<option value="{{ s }}">{{ s }}</option>{% endfor %}
+      </select>
+    </div>
+    <p style="font-size:11px;color:#567;margin-top:14px;">
+      Total records processed: <strong>{{ total_records }}</strong>
+    </p>
+  </aside>
+
+  <main class="main-panel">
+
+    <div class="section-card">
+      <div class="section-title">Product wise Details and Status</div>
+      <div style="overflow-x:auto;">
+        <table class="ckyc-table" id="product-pivot-table">
+          <thead>
+            <tr>
+              <th style="text-align:left;">Product</th>
+              {% for col in pivot.columns %}<th>{{ col }}</th>{% endfor %}
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in pivot.rows %}
+            <tr class="{{ 'total-row' if row.level == 'total' else ('child-row' if row.level == 'child' else '') }}">
+              <td class="label-cell">{{ row.label }}</td>
+              {% for col in pivot.columns %}
+              <td>{{ row['values'].get(col, 0) }}</td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <div class="section-title">WIP Cases Breakup</div>
+      <table class="ckyc-table">
+        <thead>
+          <tr><th style="text-align:left;">Bucket</th><th>Count</th><th>% of Total</th><th>% of WIP</th></tr>
+        </thead>
+        <tbody>
+          {% for row in wip.rows %}
+          <tr>
+            <td class="label-cell">{{ row.bucket }}</td>
+            <td>{{ row.count }}</td>
+            <td>{{ row.pct_of_total }}%</td>
+            <td>{{ row.pct_of_wip }}%</td>
+          </tr>
+          {% endfor %}
+          <tr class="total-row">
+            <td class="label-cell">Total WIP</td>
+            <td>{{ wip.wip_total }}</td>
+            <td>{{ (wip.wip_total / wip.total * 100) | round(2) if wip.total else 0 }}%</td>
+            <td>100%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="chart-panel">
+      <div class="section-title">Cases Reported by Partner</div>
+      <canvas id="partnerChart" height="110"></canvas>
+    </div>
+
+  </main>
+</div>
+
+<script>
+  window.CKYC_CHART_DATA = {{ chart | tojson }};
+</script>
+
+{% endif %}
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="upload-wrap">
+  <div class="upload-card">
+    <div class="upload-header">CKYC Upload Center</div>
+    <div class="upload-body">
+
+      {% if error %}
+      <div style="background:#fde8e8;color:#8a1f1f;padding:12px;border-radius:6px;margin-bottom:16px;">
+        <strong>Error:</strong> {{ error }}
+      </div>
+      {% endif %}
+
+      {% if success %}
+      <div style="background:#e6f4ea;color:#245c31;padding:12px;border-radius:6px;margin-bottom:16px;">
+        <strong>Files uploaded successfully.</strong>
+        <ul>
+          {% for file in uploaded_files %}<li>{{ file }}</li>{% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      <form method="POST" enctype="multipart/form-data">
+        <label>Report A</label>
+        <input type="file" name="report_a" accept=".csv,.xlsx,.xls" required>
+
+        <label>Report B</label>
+        <input type="file" name="report_b" accept=".csv,.xlsx,.xls" required>
+
+        <label>Master Report C</label>
+        <input type="file" name="report_c" accept=".csv,.xlsx,.xls" required>
+
+        <button type="submit" class="btn-ckyc">Upload &amp; Process</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

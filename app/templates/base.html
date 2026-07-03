@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CKYC Reporting Dashboard</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<header class="ckyc-header">
+  <h1>CKYC Reporting DASHBOARD</h1>
+  <nav>
+    <a href="{{ url_for('dashboard.dashboard') }}"><i class="fa-solid fa-chart-column"></i> Dashboard</a>
+    <a href="{{ url_for('upload.upload') }}"><i class="fa-solid fa-upload"></i> Upload Reports</a>
+  </nav>
+</header>
+
+{% block content %}
+{% endblock %}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>

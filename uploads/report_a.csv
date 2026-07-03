@@ -1,0 +1,243 @@
+ckyc_no,customer_id,product,partner,status,match_flag,remarks
+CKYC000001,CUST000001,Fintech Partnership,Partner-Alpha,Completed,Y,
+CKYC000002,CUST000002,BranchLed,Partner-Beta,Manually Verified by Ops,,Ops manual review
+CKYC000003,CUST000003,Embedded Finance,Partner-Beta,Completed,Y,
+CKYC000005,CUST000005,WSL,Partner-Alpha,Mismatch,N,Name mismatch
+CKYC000006,CUST000006,WSL,Partner-Delta,Completed,Y,
+CKYC000007,CUST000007,Fintech Partnership,Partner-Alpha,Mismatch,N,Name mismatch
+CKYC000008,CUST000008,Fintech Partnership,Partner-Beta,Pending,,
+CKYC000009,CUST000009,Embedded Finance,Partner-Epsilon,Under Review,,
+CKYC000010,CUST000010,WSL,Partner-Alpha,Completed,Y,
+CKYC000011,CUST000011,WSL,Partner-Beta,Completed,Y,
+CKYC000014,CUST000014,WSL,Partner-Gamma,Completed,Y,
+CKYC000015,CUST000015,Fintech Partnership,Partner-Beta,Pending,,
+CKYC000017,CUST000017,BranchLed,Partner-Beta,Completed,Y,
+CKYC000018,CUST000018,Embedded Finance,Partner-Gamma,Completed,Y,
+CKYC000019,CUST000019,Fintech Partnership,Partner-Alpha,Completed,Y,
+CKYC000021,CUST000021,BranchLed,Partner-Gamma,Pending,,
+CKYC000022,CUST000022,WSL,Partner-Gamma,Completed,Y,
+CKYC000024,CUST000024,Partner Reporting,Partner-Epsilon,Completed,Y,
+CKYC000025,CUST000025,Fintech Partnership,Partner-Delta,,,
+CKYC000026,CUST000026,Fintech Partnership,Partner-Epsilon,Completed,Y,
+CKYC000029,CUST000029,WSL,Partner-Beta,Completed,Y,
+CKYC000030,CUST000030,Fintech Partnership,Partner-Alpha,Completed,Y,
+CKYC000031,CUST000031,Embedded Finance,Partner-Gamma,Under Review,,
+CKYC000033,CUST000033,Fintech Partnership,Partner-Delta,Manually Verified by Ops,,Ops manual review
+CKYC000035,CUST000035,BranchLed,Partner-Beta,Pending,,
+CKYC000036,CUST000036,BranchLed,Partner-Gamma,Under Review,,
+CKYC000038,CUST000038,BranchLed,In-House,Completed,Y,
+CKYC000040,CUST000040,Embedded Finance,Partner-Epsilon,Completed,Y,
+CKYC000041,CUST000041,Embedded Finance,Partner-Beta,,,
+CKYC000042,CUST000042,Partner Reporting,Partner-Delta,Pending,,
+CKYC000043,CUST000043,BranchLed,In-House,Completed,Y,
+CKYC000044,CUST000044,WSL,Partner-Beta,Completed,Y,
+CKYC000047,CUST000047,BranchLed,Partner-Delta,Completed,Y,
+CKYC000048,CUST000048,BranchLed,Partner-Alpha,Pending,,
+CKYC000050,CUST000050,BranchLed,Partner-Beta,Manually Verified by Ops,,Ops manual review
+CKYC000051,CUST000051,Partner Reporting,Partner-Delta,Completed,Y,
+CKYC000054,CUST000054,Embedded Finance,In-House,,,
+CKYC000055,CUST000055,WSL,Partner-Epsilon,Completed,Y,
+CKYC000056,CUST000056,BranchLed,In-House,Pending,,
+CKYC000058,CUST000058,WSL,Partner-Delta,Completed,Y,
+CKYC000059,CUST000059,BranchLed,Partner-Beta,Mismatch,N,Name mismatch
+CKYC000061,CUST000061,Partner Reporting,Partner-Alpha,Completed,Y,
+CKYC000062,CUST000062,Fintech Partnership,Partner-Alpha,,,
+CKYC000063,CUST000063,Embedded Finance,In-House,Completed,Y,
+CKYC000064,CUST000064,Embedded Finance,In-House,Mismatch,N,Name mismatch
+CKYC000065,CUST000065,Partner Reporting,Partner-Epsilon,Completed,Y,
+CKYC000066,CUST000066,Fintech Partnership,Partner-Delta,Completed,Y,
+CKYC000067,CUST000067,Partner Reporting,Partner-Epsilon,Completed,Y,
+CKYC000068,CUST000068,Partner Reporting,Partner-Epsilon,Mismatch,N,Name mismatch
+CKYC000070,CUST000070,Fintech Partnership,In-House,Completed,Y,
+CKYC000071,CUST000071,Fintech Partnership,In-House,Under Review,,
+CKYC000072,CUST000072,WSL,Partner-Gamma,,,
+CKYC000073,CUST000073,BranchLed,Partner-Alpha,Under Review,,
+CKYC000075,CUST000075,Embedded Finance,Partner-Delta,Completed,Y,
+CKYC000077,CUST000077,BranchLed,Partner-Epsilon,Mismatch,N,Name mismatch
+CKYC000078,CUST000078,Embedded Finance,Partner-Epsilon,Completed,Y,
+CKYC000079,CUST000079,Fintech Partnership,In-House,Manually Verified by Ops,,Ops manual review
+CKYC000081,CUST000081,WSL,Partner-Epsilon,Under Review,,
+CKYC000084,CUST000084,WSL,Partner-Epsilon,Completed,Y,
+CKYC000085,CUST000085,Fintech Partnership,Partner-Epsilon,Completed,Y,
+CKYC000087,CUST000087,Fintech Partnership,Partner-Alpha,,,
+CKYC000089,CUST000089,Embedded Finance,Partner-Alpha,,,
+CKYC000093,CUST000093,WSL,Partner-Beta,Completed,Y,
+CKYC000095,CUST000095,Partner Reporting,Partner-Epsilon,Completed,Y,
+CKYC000096,CUST000096,Embedded Finance,Partner-Gamma,,,
+CKYC000097,CUST000097,WSL,Partner-Epsilon,Under Review,,
+CKYC000098,CUST000098,Partner Reporting,Partner-Beta,Completed,Y,
+CKYC000100,CUST000100,Embedded Finance,In-House,Completed,Y,
+CKYC000101,CUST000101,BranchLed,Partner-Delta,Completed,Y,
+CKYC000102,CUST000102,BranchLed,Partner-Delta,Mismatch,N,Name mismatch
+CKYC000105,CUST000105,Embedded Finance,Partner-Alpha,Pending,,
+CKYC000110,CUST000110,Fintech Partnership,In-House,Mismatch,N,Name mismatch
+CKYC000111,CUST000111,Fintech Partnership,Partner-Beta,Pending,,
+CKYC000112,CUST000112,Fintech Partnership,Partner-Alpha,Completed,Y,
+CKYC000114,CUST000114,WSL,Partner-Beta,Mismatch,N,Name mismatch
+CKYC000116,CUST000116,Partner Reporting,Partner-Beta,Under Review,,
+CKYC000117,CUST000117,WSL,Partner-Beta,Pending,,
+CKYC000118,CUST000118,WSL,Partner-Epsilon,Completed,Y,
+CKYC000119,CUST000119,Partner Reporting,Partner-Beta,Completed,Y,
+CKYC000121,CUST000121,Embedded Finance,Partner-Alpha,Completed,Y,
+CKYC000122,CUST000122,Fintech Partnership,In-House,Under Review,,
+CKYC000123,CUST000123,Partner Reporting,Partner-Gamma,,,
+CKYC000124,CUST000124,Partner Reporting,Partner-Delta,Completed,Y,
+CKYC000125,CUST000125,Partner Reporting,In-House,Completed,Y,
+CKYC000128,CUST000128,Partner Reporting,In-House,Pending,,
+CKYC000130,CUST000130,Embedded Finance,Partner-Beta,Completed,Y,
+CKYC000132,CUST000132,Partner Reporting,Partner-Beta,Completed,Y,
+CKYC000133,CUST000133,Partner Reporting,Partner-Beta,Completed,Y,
+CKYC000134,CUST000134,BranchLed,Partner-Delta,Completed,Y,
+CKYC000135,CUST000135,Embedded Finance,Partner-Alpha,Completed,Y,
+CKYC000137,CUST000137,Fintech Partnership,Partner-Alpha,Completed,Y,
+CKYC000138,CUST000138,WSL,Partner-Alpha,Mismatch,N,Name mismatch
+CKYC000139,CUST000139,Fintech Partnership,Partner-Beta,Completed,Y,
+CKYC000140,CUST000140,Embedded Finance,Partner-Delta,Under Review,,
+CKYC000141,CUST000141,Partner Reporting,Partner-Delta,Manually Verified by Ops,,Ops manual review
+CKYC000142,CUST000142,Embedded Finance,Partner-Delta,,,
+CKYC000144,CUST000144,Partner Reporting,Partner-Alpha,Completed,Y,
+CKYC000146,CUST000146,Partner Reporting,Partner-Gamma,Pending,,
+CKYC000148,CUST000148,WSL,In-House,Pending,,
+CKYC000149,CUST000149,Partner Reporting,Partner-Beta,Completed,Y,
+CKYC000150,CUST000150,Embedded Finance,Partner-Gamma,Pending,,
+CKYC000151,CUST000151,Embedded Finance,Partner-Alpha,Completed,Y,
+CKYC000152,CUST000152,WSL,In-House,,,
+CKYC000153,CUST000153,WSL,Partner-Alpha,Completed,Y,
+CKYC000154,CUST000154,BranchLed,Partner-Alpha,Mismatch,N,Name mismatch
+CKYC000158,CUST000158,Fintech Partnership,Partner-Epsilon,Mismatch,N,Name mismatch
+CKYC000160,CUST000160,Fintech Partnership,Partner-Epsilon,Pending,,
+CKYC000161,CUST000161,Fintech Partnership,In-House,Completed,Y,
+CKYC000164,CUST000164,Embedded Finance,Partner-Epsilon,Completed,Y,
+CKYC000165,CUST000165,WSL,Partner-Alpha,Completed,Y,
+CKYC000167,CUST000167,Partner Reporting,In-House,Mismatch,N,Name mismatch
+CKYC000168,CUST000168,WSL,Partner-Epsilon,Under Review,,
+CKYC000169,CUST000169,WSL,Partner-Gamma,Completed,Y,
+CKYC000170,CUST000170,BranchLed,Partner-Beta,Completed,Y,
+CKYC000171,CUST000171,BranchLed,Partner-Beta,Pending,,
+CKYC000172,CUST000172,BranchLed,Partner-Delta,Manually Verified by Ops,,Ops manual review
+CKYC000173,CUST000173,Embedded Finance,In-House,Pending,,
+CKYC000174,CUST000174,BranchLed,Partner-Delta,Under Review,,
+CKYC000177,CUST000177,WSL,Partner-Epsilon,Manually Verified by Ops,,Ops manual review
+CKYC000179,CUST000179,WSL,Partner-Beta,Under Review,,
+CKYC000181,CUST000181,Embedded Finance,Partner-Gamma,Under Review,,
+CKYC000182,CUST000182,Fintech Partnership,Partner-Beta,Completed,Y,
+CKYC000184,CUST000184,Embedded Finance,Partner-Delta,Mismatch,N,Name mismatch
+CKYC000185,CUST000185,WSL,In-House,Completed,Y,
+CKYC000186,CUST000186,BranchLed,Partner-Epsilon,Mismatch,N,Name mismatch
+CKYC000187,CUST000187,WSL,Partner-Alpha,Completed,Y,
+CKYC000189,CUST000189,Fintech Partnership,Partner-Beta,Completed,Y,
+CKYC000190,CUST000190,BranchLed,Partner-Alpha,Completed,Y,
+CKYC000191,CUST000191,Fintech Partnership,In-House,Completed,Y,
+CKYC000192,CUST000192,WSL,Partner-Beta,Completed,Y,
+CKYC000193,CUST000193,BranchLed,Partner-Gamma,Completed,Y,
+CKYC000195,CUST000195,BranchLed,Partner-Beta,,,
+CKYC000197,CUST000197,Partner Reporting,Partner-Gamma,Completed,Y,
+CKYC000198,CUST000198,Fintech Partnership,Partner-Alpha,Completed,Y,
+CKYC000200,CUST000200,Fintech Partnership,Partner-Alpha,Pending,,
+CKYC000203,CUST000203,Partner Reporting,Partner-Epsilon,Mismatch,N,Name mismatch
+CKYC000204,CUST000204,Partner Reporting,Partner-Epsilon,Completed,Y,
+CKYC000206,CUST000206,Fintech Partnership,In-House,Mismatch,N,Name mismatch
+CKYC000207,CUST000207,Embedded Finance,Partner-Epsilon,Mismatch,N,Name mismatch
+CKYC000208,CUST000208,Fintech Partnership,Partner-Gamma,Mismatch,N,Name mismatch
+CKYC000209,CUST000209,WSL,Partner-Epsilon,Completed,Y,
+CKYC000210,CUST000210,Embedded Finance,Partner-Delta,Mismatch,N,Name mismatch
+CKYC000211,CUST000211,Embedded Finance,Partner-Alpha,Under Review,,
+CKYC000212,CUST000212,BranchLed,Partner-Gamma,Completed,Y,
+CKYC000213,CUST000213,Fintech Partnership,Partner-Gamma,,,
+CKYC000215,CUST000215,Embedded Finance,In-House,Completed,Y,
+CKYC000216,CUST000216,Fintech Partnership,Partner-Gamma,Completed,Y,
+CKYC000217,CUST000217,WSL,Partner-Delta,Under Review,,
+CKYC000218,CUST000218,WSL,In-House,Completed,Y,
+CKYC000219,CUST000219,Embedded Finance,Partner-Beta,Completed,Y,
+CKYC000220,CUST000220,Embedded Finance,Partner-Beta,Manually Verified by Ops,,Ops manual review
+CKYC000221,CUST000221,Partner Reporting,Partner-Alpha,,,
+CKYC000222,CUST000222,Embedded Finance,In-House,Completed,Y,
+CKYC000224,CUST000224,Embedded Finance,Partner-Gamma,Manually Verified by Ops,,Ops manual review
+CKYC000225,CUST000225,Embedded Finance,In-House,Completed,Y,
+CKYC000226,CUST000226,Fintech Partnership,Partner-Delta,Completed,Y,
+CKYC000228,CUST000228,Embedded Finance,Partner-Beta,Under Review,,
+CKYC000230,CUST000230,BranchLed,Partner-Beta,Completed,Y,
+CKYC000233,CUST000233,BranchLed,Partner-Gamma,Completed,Y,
+CKYC000234,CUST000234,Fintech Partnership,Partner-Gamma,Completed,Y,
+CKYC000237,CUST000237,WSL,Partner-Gamma,Mismatch,N,Name mismatch
+CKYC000238,CUST000238,Fintech Partnership,Partner-Alpha,Completed,Y,
+CKYC000240,CUST000240,WSL,Partner-Gamma,Pending,,
+CKYC000241,CUST000241,Fintech Partnership,Partner-Alpha,Completed,Y,
+CKYC000242,CUST000242,WSL,Partner-Delta,Completed,Y,
+CKYC000243,CUST000243,BranchLed,In-House,Completed,Y,
+CKYC000244,CUST000244,BranchLed,Partner-Delta,Completed,Y,
+CKYC000245,CUST000245,WSL,Partner-Epsilon,,,
+CKYC000247,CUST000247,WSL,Partner-Beta,Completed,Y,
+CKYC000248,CUST000248,BranchLed,Partner-Alpha,Under Review,,
+CKYC000251,CUST000251,Embedded Finance,Partner-Gamma,Under Review,,
+CKYC000252,CUST000252,Partner Reporting,Partner-Alpha,Mismatch,N,Name mismatch
+CKYC000253,CUST000253,BranchLed,Partner-Epsilon,Mismatch,N,Name mismatch
+CKYC000254,CUST000254,BranchLed,In-House,Manually Verified by Ops,,Ops manual review
+CKYC000256,CUST000256,BranchLed,Partner-Epsilon,,,
+CKYC000258,CUST000258,Partner Reporting,Partner-Gamma,Completed,Y,
+CKYC000259,CUST000259,Partner Reporting,In-House,Completed,Y,
+CKYC000260,CUST000260,BranchLed,Partner-Epsilon,Completed,Y,
+CKYC000261,CUST000261,Embedded Finance,Partner-Beta,Pending,,
+CKYC000263,CUST000263,Partner Reporting,In-House,Mismatch,N,Name mismatch
+CKYC000265,CUST000265,WSL,Partner-Gamma,Under Review,,
+CKYC000267,CUST000267,Fintech Partnership,Partner-Gamma,,,
+CKYC000268,CUST000268,BranchLed,Partner-Beta,Completed,Y,
+CKYC000270,CUST000270,WSL,In-House,Completed,Y,
+CKYC000271,CUST000271,BranchLed,Partner-Delta,Completed,Y,
+CKYC000272,CUST000272,Partner Reporting,Partner-Delta,Under Review,,
+CKYC000273,CUST000273,Embedded Finance,Partner-Epsilon,Under Review,,
+CKYC000275,CUST000275,Embedded Finance,In-House,Mismatch,N,Name mismatch
+CKYC000276,CUST000276,Fintech Partnership,Partner-Gamma,,,
+CKYC000278,CUST000278,WSL,Partner-Gamma,Completed,Y,
+CKYC000281,CUST000281,Embedded Finance,Partner-Beta,Pending,,
+CKYC000282,CUST000282,Fintech Partnership,Partner-Alpha,,,
+CKYC000284,CUST000284,WSL,Partner-Alpha,,,
+CKYC000285,CUST000285,Partner Reporting,Partner-Delta,Completed,Y,
+CKYC000286,CUST000286,WSL,Partner-Beta,Pending,,
+CKYC000288,CUST000288,Partner Reporting,Partner-Beta,Completed,Y,
+CKYC000289,CUST000289,Embedded Finance,In-House,,,
+CKYC000290,CUST000290,Fintech Partnership,Partner-Alpha,Manually Verified by Ops,,Ops manual review
+CKYC000292,CUST000292,Embedded Finance,In-House,Under Review,,
+CKYC000294,CUST000294,Fintech Partnership,Partner-Epsilon,Completed,Y,
+CKYC000295,CUST000295,Embedded Finance,Partner-Alpha,Completed,Y,
+CKYC000297,CUST000297,Partner Reporting,In-House,Completed,Y,
+CKYC000299,CUST000299,WSL,Partner-Gamma,Completed,Y,
+CKYC000300,CUST000300,Partner Reporting,Partner-Epsilon,Manually Verified by Ops,,Ops manual review
+CKYC000302,CUST000302,WSL,Partner-Delta,,,
+CKYC000305,CUST000305,BranchLed,Partner-Beta,Completed,Y,
+CKYC000306,CUST000306,BranchLed,Partner-Epsilon,Completed,Y,
+CKYC000307,CUST000307,Partner Reporting,In-House,Completed,Y,
+CKYC000308,CUST000308,Embedded Finance,Partner-Gamma,Pending,,
+CKYC000309,CUST000309,Partner Reporting,Partner-Alpha,Completed,Y,
+CKYC000311,CUST000311,BranchLed,Partner-Gamma,Mismatch,N,Name mismatch
+CKYC000312,CUST000312,BranchLed,Partner-Epsilon,Completed,Y,
+CKYC000313,CUST000313,Fintech Partnership,Partner-Beta,Pending,,
+CKYC000315,CUST000315,Partner Reporting,In-House,Under Review,,
+CKYC000316,CUST000316,Embedded Finance,In-House,Mismatch,N,Name mismatch
+CKYC000317,CUST000317,Embedded Finance,Partner-Alpha,Manually Verified by Ops,,Ops manual review
+CKYC000318,CUST000318,Partner Reporting,Partner-Delta,Completed,Y,
+CKYC000319,CUST000319,BranchLed,Partner-Epsilon,Mismatch,N,Name mismatch
+CKYC000320,CUST000320,Partner Reporting,Partner-Delta,Completed,Y,
+CKYC000321,CUST000321,Fintech Partnership,Partner-Beta,Pending,,
+CKYC000322,CUST000322,Partner Reporting,Partner-Delta,Completed,Y,
+CKYC000323,CUST000323,WSL,In-House,Manually Verified by Ops,,Ops manual review
+CKYC000325,CUST000325,Partner Reporting,Partner-Delta,Mismatch,N,Name mismatch
+CKYC000326,CUST000326,Fintech Partnership,Partner-Gamma,Completed,Y,
+CKYC000327,CUST000327,BranchLed,Partner-Delta,Under Review,,
+CKYC000330,CUST000330,Embedded Finance,Partner-Delta,Pending,,
+CKYC000332,CUST000332,Partner Reporting,Partner-Delta,Completed,Y,
+CKYC000333,CUST000333,Fintech Partnership,Partner-Delta,,,
+CKYC000334,CUST000334,BranchLed,In-House,Completed,Y,
+CKYC000335,CUST000335,Partner Reporting,In-House,Pending,,
+CKYC000336,CUST000336,Embedded Finance,Partner-Delta,Completed,Y,
+CKYC000337,CUST000337,Embedded Finance,Partner-Epsilon,Mismatch,N,Name mismatch
+CKYC000338,CUST000338,WSL,Partner-Alpha,Completed,Y,
+CKYC000339,CUST000339,Partner Reporting,Partner-Epsilon,Pending,,
+CKYC000341,CUST000341,Fintech Partnership,Partner-Alpha,Completed,Y,
+CKYC000342,CUST000342,Partner Reporting,Partner-Beta,Completed,Y,
+CKYC000343,CUST000343,Partner Reporting,Partner-Beta,Manually Verified by Ops,,Ops manual review
+CKYC000344,CUST000344,Fintech Partnership,Partner-Gamma,Completed,Y,
+CKYC000345,CUST000345,Partner Reporting,Partner-Gamma,Manually Verified by Ops,,Ops manual review
+CKYC000348,CUST000348,Partner Reporting,Partner-Gamma,Completed,Y,
+CKYC000349,CUST000349,Partner Reporting,Partner-Gamma,Completed,Y,
+CKYC000350,CUST000350,Fintech Partnership,Partner-Delta,Completed,Y,
